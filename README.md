@@ -1,4 +1,4 @@
-### NOTE that it is always nice to either make a snapshot or a copy of your virtual machines before doing permanent changes ###
+### NOTE that it is always nice to either make a snapshot or a copy of your virtual machines before doing permanent changes. If on bare metal then make a backup ###
 
 This script will automatically update, add i386 architecture, and install some of my favorite tools and programs onto kali or ubuntu for a quick start (Debian 10 and Ubuntu 22.04). If you want to change the version, you could change the wget links to the correct version by going to that programs download page Ex: veracrypt, sublime, etc. Make sure to change all relevant commands with the proper file name if you do so.
 
@@ -8,7 +8,7 @@ move the .bash_aliases to the home directory and reboot for the aliases to take 
 
 
 ### Terms of use:
-Anyone may use and change these scripts to suit their needs as long as they do not claim to have made it themselves. Don't be that script kitty :/ 
+Anyone may use and change these scripts to suit their needs as long as they do not claim to have made it themselves. Don't be that script kitty :/ ###
 
 
 Enjoy :)
