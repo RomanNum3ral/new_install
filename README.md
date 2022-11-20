@@ -8,7 +8,7 @@ move the .bash_aliases to the home directory and reboot for the aliases to take 
 
 
 ### Terms of use:
-I am in no way responsible for any actions of anybody other than my own. Any use of my coding is soley your responsibility. Anyone may use and change these scripts to suit their needs as long as they do not claim credit for creating it themselves. Don't be that script kitty :/ 
+I am in no way responsible for any actions of anybody other than my own. Any use of my coding is soley your responsibility. I am not liable for any damaged data. If you have any issues or concerns, feel free to reach out and I will do my best to assist you. Anyone may use and change these scripts to suit their needs as long as they do not claim credit for creating it themselves. Don't be that script kitty :/ 
 
 
 Enjoy :)
