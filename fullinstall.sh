@@ -2,7 +2,7 @@
 sudo apt update
 sudo dpkg --add-architecture i386
 sudo apt update
-sudo apt install htop npm terminator conky-all conky-manager sherlock ncdu hollywood cmatrix flameshot steghide exiftool remmina virtualbox torbrowser-launcher keepassxc bettercap 2to3 ffmpeg handbrake freecad tilix openscad vlc libreoffice backdoor-factory mingw-w64 -y
+sudo apt install libwxbase3.0-0v5 libwxgtk3.0-gtk3-0v5 htop npm terminator conky-all conky-manager sherlock ncdu hollywood cmatrix flameshot steghide exiftool remmina virtualbox torbrowser-launcher keepassxc bettercap 2to3 ffmpeg handbrake freecad tilix openscad vlc libreoffice backdoor-factory mingw-w64 -y
 sudo apt-get install linux-headers-$(uname -r)
 sudo apt install apt-transport-https curl -y
 sudo apt dist-upgrade -y
