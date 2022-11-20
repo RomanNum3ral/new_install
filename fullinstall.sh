@@ -19,9 +19,9 @@ sudo wget https://download.sublimetext.com/sublime-text_build-3211_amd64.deb
 sudo chmod +x sublime-text_build-3211_amd64.deb
 sudo dpkg -i sublime-text_build-3211_amd64.deb
 cd
-wget https://launchpad.net/veracrypt/trunk/1.25.9/+download/veracrypt-1.25.9-Debian-11-amd64.deb
-sudo chmod +x veracrypt-1.25.9-Debian-11-amd64.deb
-sudo dpkg -i veracrypt-1.25.9-Debian-11-amd64.deb
+wget https://launchpad.net/veracrypt/trunk/1.25.9/+download/veracrypt-1.25.9-Debian-10-amd64.deb
+sudo chmod +x veracrypt-1.25.9-Debian-10-amd64.deb
+sudo dpkg -i veracrypt-1.25.9-Debian-10-amd64.deb
 cd
 git clone https://github.com/Screetsec/TheFatRat.git
 cd TheFatRat
