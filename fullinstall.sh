@@ -2,7 +2,7 @@
 sudo apt update
 sudo dpkg --add-architecture i386
 sudo apt update
-sudo apt install htop npm conky-all conky-manager sherlock ncdu hollywood cmatrix flameshot steghide exiftool remmina virtualbox torbrowser-launcher keepassxc bettercap 2to3 ffmpeg handbrake freecad tilix openscad vlc libreoffice backdoor-factory mingw-w64 -y
+sudo apt install htop npm terminator conky-all conky-manager sherlock ncdu hollywood cmatrix flameshot steghide exiftool remmina virtualbox torbrowser-launcher keepassxc bettercap 2to3 ffmpeg handbrake freecad tilix openscad vlc libreoffice backdoor-factory mingw-w64 -y
 sudo apt-get install linux-headers-$(uname -r)
 sudo apt install apt-transport-https curl -y
 sudo apt dist-upgrade -y
@@ -14,6 +14,14 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=
 sudo apt update
 sudo apt install brave-browser -y
 sudo apt install software-properties-common -y
+cd
+sudo wget https://download.sublimetext.com/sublime-text_build-3211_amd64.deb
+sudo chmod +x sublime-text_build-3211_amd64.deb
+sudo dpkg -i sublime-text_build-3211_amd64.deb
+cd
+wget https://launchpad.net/veracrypt/trunk/1.25.9/+download/veracrypt-1.25.9-Debian-11-amd64.deb
+sudo chmod +x veracrypt-1.25.9-Debian-11-amd64.deb
+sudo dpkg -i veracrypt-1.25.9-Debian-11-amd64.deb
 cd
 git clone https://github.com/Screetsec/TheFatRat.git
 cd TheFatRat
