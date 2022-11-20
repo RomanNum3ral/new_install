@@ -4,8 +4,11 @@ This script will automatically update, add i386 architecture, and install some o
 
 You may be prompted to allow services to automatically restart. Once you get to thefatrat install (last install), I would reccomend that you change the location of saved files to ~/home/USERNAME/Downloads otherwise you must go into the root user files to locate the payloads.
 
-move the .bash_aliases to the home directory and reboot for the aliases to take effect. You also may need to change the adapter name to match what you have in iwconfig for any wireless attacks. 
+Move the .bash_aliases to the home directory and reboot for the aliases to take effect. You also may need to change the adapter name to match what you have in iwconfig for any wireless attacks. 
 
+If the program runs with issues, change the permissions of the executable (ubuntu_install.sh or kali_install.sh) by using the command: 
+sudo chmod 777 ubuntu_install.sh
+This will change the permissions so you have read and wright permissions and dont run into a read only error.
 
 ### Terms of use:
 I am in no way responsible for any actions of anybody other than my own. Any use of my coding is soley your responsibility. I am not liable for any damaged data. If you have any issues or concerns, feel free to reach out and I will do my best to assist you. Anyone may use and change these scripts to suit their needs as long as they do not claim credit for creating it themselves. Don't be that script kitty :/ 
