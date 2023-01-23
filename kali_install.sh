@@ -6,7 +6,7 @@ sudo apt dist-upgrade -y
 sudo apt full-upgrade -y
 sudo apt autoremove -y
 sudo apt install apt-transport-https curl -y
-sudo apt install libfuse2 libwxbase3.0-0v5 libwxgtk3.0-gtk3-0v5 htop npm terminator conky-all conky-manager gedit gobuster sherlock ncdu hollywood cmatrix flameshot steghide exiftool remmina virtualbox torbrowser-launcher keepassxc bettercap 2to3 ffmpeg handbrake freecad tilix openscad vlc libreoffice backdoor-factory mingw-w64 -y
+sudo apt install libfuse2 libwxbase3.0-0v5 libwxgtk3.0-gtk3-0v5 htop npm bleachbit stegosuite terminator conky-all conky-manager gedit gobuster sherlock ncdu hollywood cmatrix flameshot steghide exiftool remmina virtualbox torbrowser-launcher keepassxc bettercap 2to3 ffmpeg handbrake freecad tilix openscad vlc libreoffice backdoor-factory mingw-w64 -y
 sudo apt-get install linux-headers-$(uname -r)
 cd
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
