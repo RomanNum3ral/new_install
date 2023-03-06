@@ -10,6 +10,8 @@ If the program runs with issues, change the permissions of the executable (ubunt
 sudo chmod 777 ubuntu_install.sh
 This will change the permissions so you have read and wright permissions and dont run into a read only error.
 
+This program now adds webbreacher github files to your home directory
+
 ### Terms of use:
 I am in no way responsible for any actions of anybody other than my own. Any use of my coding is soley your responsibility. I am not liable for any damaged data. If you have any issues or concerns, feel free to reach out and I will do my best to assist you. Anyone may use and change these scripts to suit their needs as long as they do not claim credit for creating it themselves. Don't be that script kitty :/ 
 
