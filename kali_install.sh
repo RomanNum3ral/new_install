@@ -19,6 +19,12 @@ sudo wget https://download.sublimetext.com/sublime-text_build-3211_amd64.deb
 sudo chmod +x sublime-text_build-3211_amd64.deb
 sudo dpkg -i sublime-text_build-3211_amd64.deb
 cd
+curl -1sLf \
+   'https://dl.cloudsmith.io/public/balena/etcher/setup.deb.sh' \
+   | sudo -E bash
+sudo apt update
+sudo apt install balena-etcher-electron
+cd
 sudo wget https://launchpad.net/veracrypt/trunk/1.25.9/+download/veracrypt-1.25.9-Debian-10-amd64.deb
 sudo chmod +x veracrypt-1.25.9-Debian-10-amd64.deb
 sudo dpkg -i veracrypt-1.25.9-Debian-10-amd64.deb
@@ -33,7 +39,7 @@ sudo git clone https://github.com/WebBreacher/osinttools.git
 sudo git clone https://github.com/WebBreacher/WhatsMyName.git
 sudo git clone https://github.com/WebBreacher/yoga.git
 cd
-sudo apt install --fix-broken
+sudo apt install --fix-broken -y
 sudo apt autoremove -y
 git clone https://github.com/Screetsec/TheFatRat.git
 cd TheFatRat
