@@ -19,20 +19,20 @@ sudo wget https://download.sublimetext.com/sublime-text_build-3211_amd64.deb
 sudo chmod +x sublime-text_build-3211_amd64.deb
 sudo dpkg -i sublime-text_build-3211_amd64.deb
 cd
-wget https://launchpad.net/veracrypt/trunk/1.25.9/+download/veracrypt-1.25.9-Debian-10-amd64.deb
+sudo wget https://launchpad.net/veracrypt/trunk/1.25.9/+download/veracrypt-1.25.9-Debian-10-amd64.deb
 sudo chmod +x veracrypt-1.25.9-Debian-10-amd64.deb
 sudo dpkg -i veracrypt-1.25.9-Debian-10-amd64.deb
 cd
 cd Downloads
-git clone https://www.xmind.app/zen/download/linux_deb/Xmind-for-Linux-amd64bit-22.11.3656.deb
+sudo wget https://www.xmind.app/zen/download/linux_deb/Xmind-for-Linux-amd64bit-22.11.3656.deb
 sudo dpkg -i Xmind-for-Linux-amd64bit-22.11.3656.deb
 cd
 cd Documents
-mkdir webbreacher
+sudo mkdir webbreacher
 cd webbreacher
-git clone https://github.com/WebBreacher/osinttools.git
-git clone https://github.com/WebBreacher/WhatsMyName.git
-git clone https://github.com/WebBreacher/yoga.git
+sudo git clone https://github.com/WebBreacher/osinttools.git
+sudo git clone https://github.com/WebBreacher/WhatsMyName.git
+sudo git clone https://github.com/WebBreacher/yoga.git
 cd
 sudo apt autoremove -y
 git clone https://github.com/Screetsec/TheFatRat.git
