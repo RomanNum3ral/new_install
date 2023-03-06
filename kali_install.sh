@@ -23,7 +23,7 @@ curl -1sLf \
    'https://dl.cloudsmith.io/public/balena/etcher/setup.deb.sh' \
    | sudo -E bash
 sudo apt update
-sudo apt install balena-etcher-electron
+sudo apt install balena-etcher-electron -y
 cd
 sudo wget https://launchpad.net/veracrypt/trunk/1.25.9/+download/veracrypt-1.25.9-Debian-10-amd64.deb
 sudo chmod +x veracrypt-1.25.9-Debian-10-amd64.deb
