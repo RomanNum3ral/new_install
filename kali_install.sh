@@ -19,6 +19,9 @@ sudo wget https://download2.tixati.com/download/tixati_3.16-1_amd64.deb
 sudo chmod +x tixati_3.16-1_amd64.deb
 sudo dpkg -i tixati_3.16-1_amd64.deb
 cd
+wget https://discord.com/api/download?platform=linux&format=deb
+sudo dpkg -i discord-0.0.67.deb
+cd
 sudo wget https://download.sublimetext.com/sublime-text_build-3211_amd64.deb
 sudo chmod +x sublime-text_build-3211_amd64.deb
 sudo dpkg -i sublime-text_build-3211_amd64.deb
