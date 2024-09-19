@@ -19,10 +19,6 @@ wget https://github.com/obsidianmd/obsidian-releases/releases/download/v1.6.7/ob
 sudo chmod +x *.deb
 sudo dpkg -i *.deb
 cd
-wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
-sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
-sudo apt install code
-cd
 sudo wget https://download2.tixati.com/download/tixati_3.16-1_amd64.deb
 sudo chmod +x tixati_3.16-1_amd64.deb
 sudo dpkg -i tixati_3.16-1_amd64.deb
@@ -56,6 +52,11 @@ sudo git clone https://github.com/WebBreacher/yoga.git
 cd
 sudo apt install --fix-broken -y
 sudo apt autoremove -y
+cd
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+sudo apt install code
+cd
 git clone https://github.com/Screetsec/TheFatRat.git
 cd TheFatRat
 sudo chmod +x setup.sh
