@@ -6,7 +6,7 @@ sudo apt dist-upgrade -y
 sudo apt full-upgrade -y
 sudo apt autoremove -y
 sudo apt install apt-transport-https curl -y
-sudo apt install libfuse2 libwxbase3.0-0v5 libwxgtk3.0-gtk3-0v5 htop npm backdoor-factory bleachbit stegosuite terminator gedit gobuster sherlock ncdu hollywood cmatrix flameshot steghide exiftool remmina virtualbox torbrowser-launcher keepassxc bettercap 2to3 ffmpeg handbrake freecad tilix openscad vlc libreoffice backdoor-factory mingw-w64 -y
+sudo apt install libfuse2 libwxbase3.0-0v5 software-properties-common apt-transport-https wget libwxgtk3.0-gtk3-0v5 htop npm backdoor-factory bleachbit stegosuite terminator gedit gobuster sherlock ncdu hollywood cmatrix flameshot steghide exiftool remmina virtualbox torbrowser-launcher keepassxc bettercap 2to3 ffmpeg handbrake freecad tilix openscad vlc libreoffice backdoor-factory mingw-w64 -y
 sudo apt-get install -y linux-headers-$(uname -r)
 cd
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
@@ -14,6 +14,10 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=
 sudo apt update
 sudo apt install brave-browser -y
 sudo apt install software-properties-common -y
+cd
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+sudo apt install code
 cd
 sudo wget https://download2.tixati.com/download/tixati_3.16-1_amd64.deb
 sudo chmod +x tixati_3.16-1_amd64.deb
