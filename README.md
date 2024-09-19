@@ -6,7 +6,7 @@ You may be prompted to allow services to automatically restart. Once you get to 
 
 Move the .bash_aliases to the home directory and reboot for the aliases to take effect. You also may need to change the adapter name to match what you have in iwconfig for any wireless attacks. 
 
-If the program runs with issues, change the permissions of the executable (ubuntu_install.sh or kali_install.sh) by using the command: 
+If the program runs with issues, change the permissions of the executable by using the command: 
 sudo chmod 777 ubuntu_install.sh
 This will change the permissions so you have read and wright permissions and dont run into a read only error.
 
