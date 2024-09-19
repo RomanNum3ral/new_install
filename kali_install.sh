@@ -15,6 +15,10 @@ sudo apt update
 sudo apt install brave-browser -y
 sudo apt install software-properties-common -y
 cd
+wget https://github.com/obsidianmd/obsidian-releases/releases/download/v1.6.7/obsidian_1.6.7_amd64.deb
+sudo chmod +x *.deb
+sudo dpkg -i *.deb
+cd
 wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
 sudo apt install code
