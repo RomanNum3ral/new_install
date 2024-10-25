@@ -6,7 +6,7 @@ sudo apt dist-upgrade -y
 sudo apt full-upgrade -y
 sudo apt autoremove -y
 sudo apt install -y apt-transport-https curl
-sudo apt install -y libfuse2 libykpers-1-1 libyubikey-udev software-properties-common apt-transport-https wget htop npm 
+sudo apt install -y libfuse2 libykpers-1-1 libyubikey-udev software-properties-common apt-transport-https wget htop npm timemachine
 sudo apt install -y backdoor-factory bleachbit stegosuite terminator gedit gobuster sherlock ncdu hollywood cmatrix flameshot steghide exiftool remmina 
 sudo apt install -y virtualbox torbrowser-launcher keepassxc bettercap 2to3 ffmpeg handbrake tilix openscad vlc libreoffice backdoor-factory mingw-w64
 sudo apt-get install -y linux-headers-$(uname -r)
