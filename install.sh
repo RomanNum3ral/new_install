@@ -8,7 +8,7 @@ sudo apt autoremove -y
 sudo apt install -y apt-transport-https curl
 sudo apt install -y libfuse2 libykpers-1-1 libyubikey-udev software-properties-common apt-transport-https wget htop npm 
 sudo apt install -y backdoor-factory bleachbit stegosuite terminator gedit gobuster sherlock ncdu hollywood cmatrix flameshot steghide exiftool remmina 
-sudo apt install -y virtualbox torbrowser-launcher keepassxc bettercap 2to3 ffmpeg handbrake freecad tilix openscad vlc libreoffice backdoor-factory mingw-w64 -y
+sudo apt install -y virtualbox torbrowser-launcher keepassxc bettercap 2to3 ffmpeg handbrake tilix openscad vlc libreoffice backdoor-factory mingw-w64
 sudo apt-get install -y linux-headers-$(uname -r)
 cd
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
