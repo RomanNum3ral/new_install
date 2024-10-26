@@ -10,6 +10,7 @@ sudo apt install -y libfuse2 libykpers-1-1 libyubikey-udev software-properties-c
 sudo apt install -y backdoor-factory bleachbit stegosuite terminator gedit gobuster sherlock ncdu hollywood cmatrix flameshot steghide exiftool remmina 
 sudo apt install -y virtualbox torbrowser-launcher keepassxc bettercap 2to3 ffmpeg handbrake tilix openscad vlc libreoffice backdoor-factory mingw-w64
 sudo apt-get install -y linux-headers-$(uname -r)
+sudo dpkg iriunwebcam-2.8.3.deb -i
 cd
 sudo add-apt-repository ppa:obsproject/obs-studio
 sudo apt install -y obs-studio
