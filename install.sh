@@ -11,6 +11,8 @@ sudo apt install -y backdoor-factory bleachbit stegosuite terminator gedit gobus
 sudo apt install -y virtualbox torbrowser-launcher keepassxc bettercap 2to3 ffmpeg handbrake tilix openscad vlc libreoffice backdoor-factory mingw-w64
 sudo apt-get install -y linux-headers-$(uname -r)
 cd
+sudo add-apt-repository ppa:obsproject/obs-studio
+sudo apt install obs-studio
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
 sudo apt update
