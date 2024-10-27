@@ -51,6 +51,10 @@ cd Downloads
 sudo wget https://www.xmind.app/zen/download/linux_deb/Xmind-for-Linux-amd64bit-22.11.3656.deb
 sudo dpkg -i Xmind-for-Linux-amd64bit-22.11.3656.deb
 cd
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" -y
+sudo apt install -y code
+cd
 sudo mkdir webbreacher
 cd webbreacher
 sudo git clone https://github.com/WebBreacher/osinttools.git
@@ -59,7 +63,3 @@ sudo git clone https://github.com/WebBreacher/yoga.git
 cd
 sudo apt install --fix-broken -y
 sudo apt autoremove -y
-cd
-wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
-sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
-sudo apt install code
