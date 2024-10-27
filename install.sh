@@ -20,6 +20,11 @@ sudo apt update
 sudo apt install brave-browser -y
 sudo apt install software-properties-common -y
 cd
+wget https://repo.protonvpn.com/debian/dists/stable/main/binary-all/protonvpn-stable-release_1.0.4_all.deb
+sudo dpkg -i ./protonvpn-stable-release_1.0.4_all.deb && sudo apt update
+sudo apt update && sudo apt upgrade -y
+sudo apt install -y proton-vpn-gnome-desktop
+cd
 wget https://github.com/obsidianmd/obsidian-releases/releases/download/v1.6.7/obsidian_1.6.7_amd64.deb
 sudo chmod +x *.deb
 sudo dpkg -i *.deb
